@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
 
 * {
     padding: 0;
@@ -79,11 +79,12 @@ header {
 .dropdown-menu {
     display: none;
     position: absolute;
-    top: 100%;
+    top: 60px; /* Adjust based on header height */
     right: 20px;
     background-color: #3a404d;
     border-radius: 5px;
     overflow: hidden;
+    z-index: 1000; /* Ensure it is above other content */
 }
 
 .dropdown-menu ul {
@@ -255,9 +256,6 @@ footer {
     .hamburger-menu {
         display: block;
     }
-    .dropdown-menu {
-        display: none;
-    }
     .footerNav ul {
         flex-direction: column;
     }
@@ -269,5 +267,8 @@ footer {
     .socialIcons a {
         padding: 8px;
         margin: 4px;
+    }
+    .button1 {
+        display: none; /* Hide the GET IN TOUCH button */
     }
 }
