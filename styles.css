@@ -272,6 +272,6 @@ footer {
         display: none; /* Hide the GET IN TOUCH button */
     }
     .background-img-container {
-        background-position: left; /* Shift background image to the left */
+        background-position:20%;
     }
 }
