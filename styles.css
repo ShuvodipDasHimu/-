@@ -85,7 +85,7 @@ header {
     position: absolute;
     top: 60px; /* Adjust based on header height */
     right: 20px;
-    background-color: #3a404d;
+    background-color: rgb(18, 32, 45);
     border-radius: 5px;
     overflow: hidden;
     z-index: 1000; /* Ensure it is above other content */
@@ -185,7 +185,7 @@ main .header-text {
 }
 
 footer {
-    background-color: #111;
+    background-color: rgb(18, 32, 45);
 }
 
 .footerContainer {
