@@ -12,7 +12,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #3a404d;
+    background-color: rgb(18, 32, 45);
     position: relative;
 }
 
@@ -43,27 +43,31 @@ header {
     font-weight: 550;
     padding: 15px;
     display: block;
+    transition: 0.5s;
 }
 
 .navbar a:hover {
-    background-color: #1b566a;
-    border-radius: 20%;
+    background-color: #f9f9f9f1;
+    border-radius: 10%;
     color: black;
+    padding: 10px;
 }
 
 .button1 {
-    background-color: #212324;
-    color: white;
+    background-color: #67c0f3;
+    color: 212324;
     border: none;
-    padding: 10px 20px;
+    border-radius: 50px;
+    padding: 12px 20px;
     font-weight: 600;
     cursor: pointer;
     border-radius: 5px;
+    transition: 0.7s;
 }
 
 .button1:hover {
-    background-color: #FFF;
-    color: #212324;
+    background-color: #0b6ea8;
+    color: #fff;
 }
 
 .hamburger-menu {
@@ -107,10 +111,6 @@ header {
 .dropdown-menu a:hover {
     background-color: #e0e9ec;
     color: black;
-}
-
-.button2 {
-    padding: 12px 20px;
 }
 
 main {
@@ -168,19 +168,20 @@ main .header-text {
 }
 
 .button2 {
-    margin: 0 10px;
-    padding: 12px 20px;
-    background-color: #212324;
-    color: white;
+  background-color: #67c0f3;
+    color: 212324;
     border: none;
+    border-radius: 50px;
+    padding: 12px 20px;
     font-weight: 600;
     cursor: pointer;
     border-radius: 5px;
+    transition: 0.7s;
 }
 
 .button2:hover {
-    background-color: #FFF;
-    color: #212324;
+    background-color: #0b6ea8;
+    color: #fff;
 }
 
 footer {
@@ -285,5 +286,6 @@ footer {
         display: none; /* Hide the GET IN TOUCH button */
     }
     .background-img-container {
+        ckground-pobasition:20%;
     }
 }
